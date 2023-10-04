@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell:i|Droid+Serif:700');
+
+:root {
+    --primary-color: #black;
+    --secondary-color: #white;
+    --accent1-color: #blue;
+    --accent2--color; #green;
+    
+    --heading-font: '_________', serif;
+    --paragraph-font:'________', serif;
+
+    --nav-background-color: #WHITE;
+    --nav-link-color: #BLACK;
+    --nav-hover-link-color: #BLUE;
+    --nav-hover-background-color: #GREEN;
+}
+
+body {
+    f______:var(--paragraph-font);
+    m______: ______;
+    p______: ______;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--BLACK);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color)
+    font-size: 1.2rem
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a: link, nav a:visited {
+    color: var(--nav hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+
+
+
