@@ -1,3 +1,7 @@
+html body[modern-dialog] {
+    --iron-overlay-backdrop-opacity: 0.3;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Cantarell:i|Droid+Serif:700');
 
 :root {
@@ -36,8 +40,8 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color)
-    font-size: 1.2rem
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
     display: flex;
 }
 
@@ -48,9 +52,8 @@ nav a {
     padding: 1rem;
 }
 
-nav a: link, nav a:visited {
-    color: var(--nav hover-link-color);
-    background-color: var(--nav-hover-background-color);
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
 }
 
 nav a:hover {
