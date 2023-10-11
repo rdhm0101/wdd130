@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Cantarell:i|Droid+Serif:700');
 
 :root {
-    --primary-color: #black;
-    --secondary-color: #white;
-    --accent1-color: #blue;
-    --accent2--color; #green;
+    --primary-color: #22577A;
+    --secondary-color: #FFBF00;
+    --accent1-color: #57CC99;
+    --accent2--color: #FFEF00;
     
-    --heading-font: '_________', serif;
+    --heading-font:'Roboto', sans-serif;
     --paragraph-font:'________', serif;
 
-    --nav-background-color: #WHITE;
-    --nav-link-color: #BLACK;
-    --nav-hover-link-color: #BLUE;
-    --nav-hover-background-color: #GREEN;
+    --nav-background-color: #22577A;
+    --nav-link-color: #FDEE00;
+    --nav-hover-link-color: #57CC99;
+    --nav-hover-background-color: #E9D66B;
 }
 
 body {
-    f______:var(--paragraph-font);
-    m______: ______;
-    p______: ______;
+    font-size: var(--body-1);
+    max-width: 100%;
+    padding: var(--contentVerticalOffset);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -57,6 +57,7 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
 
 
 
