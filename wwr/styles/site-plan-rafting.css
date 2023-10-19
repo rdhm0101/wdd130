@@ -1,7 +1,3 @@
-html body[modern-dialog] {
-    --iron-overlay-backdrop-opacity: 0.3;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Cantarell:i|Droid+Serif:700');
 
 :root {
@@ -11,9 +7,9 @@ html body[modern-dialog] {
     --accent2--color: #FFEF00;
     
     --heading-font:'Roboto', sans-serif;
-    --paragraph-font:'________', serif;
+    --paragraph-font:'Elegant', serif;
 
-    --nav-background-color: #22577A;
+    --nav-background-color: #14191d;
     --nav-link-color: #FDEE00;
     --nav-hover-link-color: #57CC99;
     --nav-hover-background-color: #E9D66B;
